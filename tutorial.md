@@ -1,3 +1,7 @@
 Hello 
+
 **wwww**
-<b> bold </b>
+
+<b> bold </b> 
+
+![image](dog.jpg)
