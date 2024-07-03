@@ -25,6 +25,7 @@ Wir werden von Kali darauf hingewiesen dass noch zwei Prozesse auf die Karte zug
   ```
 
 ![image](images/2.png "AA")
+
 Danach steht und die Wlan-Karte voll und ganz zur Verfügung.
 Nun schauen wir was wir alles in unsrer Umgebung empfangen können.
   ```sh
@@ -32,10 +33,20 @@ Nun schauen wir was wir alles in unsrer Umgebung empfangen können.
   ```
 wlan0mon ist nun der Name unseres Netzwerkinterfaces welches sich im Monitor-Mode befindet daher das "mon" am Ende
 ![image](images/4.png "AA")
-Was sehen wir nun? Wie kann man das angezeigte interpretieren?
-Wir sehen also drei Netzwerk im Reichweite
 
 ![image](images/3.png "AA")
+
+Was sehen wir nun? Wie kann man das angezeigte interpretieren?
+Wir sehen also drei Netzwerk im Reichweite.
+In der ersten Spalte sehen wir die einzigartigen BSSID von den Netzwerken, gefolgt von der Spalte PWR als abkürzung für Power die Werte die wir hier sehen sind immer negativ da sich diese auf die Signalstärke in dbm beziehen. Diese Zahl ist ein Indikator dafür wie nah man an einem Netzwerkteilnehmer ist.
+Beispiel ein Netzwerk mit dem Wert -35 ist näher an unserem Laptop als ein Netzwerk mit -54. Allgemein gilt beim WLan-Hacking je dichter desto besser
+Die Spalte ENC steht für die Verschlüsselungsart  Welches Verschlüsselungsarten gibt es OPN= open/offen/ohne Verschlüsselung, WEP, WPA2 und WPA3
+Die letzte Spalte ist die ESSID umgangssprachlich oft als SSID bzw "Wlan-Namen" bekannt. ESSID steht für Extended Service Set Identifier
+Hier sehen wir erste wichtige Hinweise.
+Es handelt sich um ein Gerät der Marke TP-Link und es scheint nicht Benutzer angepasst worden zu sein, da die ESSID bei allen wirklich allen TP-Link Produkten mir Wlan immer dem selben Schema folgt. Der Markenname+die letzen 4 Zeichen der MAC Adresse des Gerätes diese sehen wir auch in der ersten Spalte BSSID. Konkret also "68F0"
+ 
+
+
 ![image](images/5.png "AA")
 ![image](images/6.png "AA")
 ![image](images/7.png "AA")
