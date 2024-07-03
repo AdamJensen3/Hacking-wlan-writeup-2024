@@ -62,8 +62,33 @@ Hier ist nun besonders die Stelle oben rechts für uns interessant, denn nun gil
 Auch hierzu gibt es wiedereinmal mehrere Ansätze. Zum Beispiel warten bis sich ein Gerät wie ein Handy mit dem Netzwerk verbindet.Man kann aber mit dem DEAUTH-Befehl verbunde Geräte kurz aus dem Netzwerk kicken. Diese verbinden sich dann direkt wieder mit dem WLAN-Sender und man bekommt den Handshake. Darum soll es hier aber jetzt nicht gehen. Zu diesen Schulungszweken habe ich ein Handy mit den Netzwerk verbunden.
 
 ![image](images/7.png "AA")
+
+Nun können wir erkennen dass mindestens ein Handshake aufgezeichnet wurde. Nun können wir dich Aufzeichnung des WLAN-Verkers mit der Tastekombination STRG+C beenden
+
+  ```sh
+  [STRG]+[C] 
+  ```
+Nun kommt die Stelle die ein Skriptkiddi von einem Penetrationtester unterscheidt
+
+"Spezialwissen" über TP-Link
+- TP-Link verwendet bei allen WLAN-Produkten den WPA2 mindeststandart bei der Passwortlänge also 8 Zeichen.
+- Die WLAN-Passwörter bei TP-Link bestehen in der Grundkonfiguration immer nur aus Zahlen
+
+Kali verfügt über eine mächtige eingebaut Wordliste die Rockyou.txt aber ein Angriff auf die Verschlüsselung würde nichts bringen, da dort nicht das benötigte Passwort drin steht.
+
+Daher generieren wir uns die passende Passwordliste mit den folgenden Befehl
+
+  ```sh
+  crunch 8 8 0123456789 -o 8er_zahlen
+  ```
+
 ![image](images/8.png "AA")
+
+Wir nutzen das Programm Crunch um uns eine Liste mit Passwörter erstellen zu lassen. Wir geben folgende dabei an: Mindestlänge des PW ist 8 Maximallänge des PW ist 8. Woraus soll das Passwort bestehen nur aus den Zahlen 0123456789 und alles soll mit dem Parameter -o (Output) in die Datei 8er-zahlen geschrieben werden.
+
 ![image](images/9.png "AA")
+
+
 ![image](images/10.png "AA")
 ![image](images/11.png "AA")
 ![image](images/12.png "AA")
