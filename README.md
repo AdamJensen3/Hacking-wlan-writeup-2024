@@ -45,10 +45,20 @@ Die letzte Spalte ist die ESSID umgangssprachlich oft als SSID bzw "Wlan-Namen" 
 Hier sehen wir erste wichtige Hinweise.
 Es handelt sich um ein Gerät der Marke TP-Link und es scheint nicht Benutzer angepasst worden zu sein, da die ESSID bei allen wirklich allen TP-Link Produkten mir Wlan immer dem selben Schema folgt. Der Markenname+die letzen 4 Zeichen der MAC Adresse des Gerätes diese sehen wir auch in der ersten Spalte BSSID. Konkret also "68F0"
  
+Um eine WPA2-Verschlüsselung zu erraten benötigen wir den Handshake zwischen dem Sender und Empfänger dazu benutzen wir den folgenden Befehl
 
-
+  ```sh
+  sudo airodump-ng start wlan0mon --bssid   C0:C9:E3:B3:68:F0 -w handshake.cap
+  ```
 ![image](images/5.png "AA")
+ Mit diesem Befehl weisen wir an, dass wir nur die Datenpakte die mit der angebenen BSSID zu tun haben, also unserem Zielnetzwerk, aufgezeichnet werden sollen.
+ Die gesamte aufzeichung soll in die mit dem Parameter -w (write) in die Datei handshake.cap geschrieben werden. Diese Bezeichnung ist nicht zwingend, man hätte es auch hugo.txt nennen können aber gewöhnt euch gleich an die Dinge richtig zu erledigen. .cap Dateien werden wir bei Wireshark wieder sehen.
+
+ Es öffnet sich nun die folgende Anzeige mit unsrem Zielnetzwerk
+
 ![image](images/6.png "AA")
+
+
 ![image](images/7.png "AA")
 ![image](images/8.png "AA")
 ![image](images/9.png "AA")
