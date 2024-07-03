@@ -25,8 +25,17 @@ Wir werden von Kali darauf hingewiesen dass noch zwei Prozesse auf die Karte zug
   ```
 
 ![image](images/2.png "AA")
-![image](images/3.png "AA")
+Danach steht und die Wlan-Karte voll und ganz zur Verfügung.
+Nun schauen wir was wir alles in unsrer Umgebung empfangen können.
+  ```sh
+  sudo airodump-ng start wlan0mon
+  ```
+wlan0mon ist nun der Name unseres Netzwerkinterfaces welches sich im Monitor-Mode befindet daher das "mon" am Ende
 ![image](images/4.png "AA")
+Was sehen wir nun? Wie kann man das angezeigte interpretieren?
+Wir sehen also drei Netzwerk im Reichweite
+
+![image](images/3.png "AA")
 ![image](images/5.png "AA")
 ![image](images/6.png "AA")
 ![image](images/7.png "AA")
