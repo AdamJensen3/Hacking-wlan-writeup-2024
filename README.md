@@ -1,8 +1,13 @@
 # Tutorial WPA2 Handshake bruteforcen:
 
 ## Wichtiger Hinweis:
-ssss
-### Prerequisites
+
+Die gezeigeten Methoden, Befehle und Techniken dienen der Sensibilisierung und dem Selbststudium, und dürfen unter gar keinen Umständen für böse Absichten eingesetzt werden. Darüber hinaus ist es in Deutschland strafbar fremde Netzwerke, Webseite, Server oder ähnliches zu hacken, ohne schriftliche Genehmigung des Eigentümer
+
+### Vorraussetzungen 
+
+Hardware: Laptop/Rechner mit WLAN-Karte<br>
+Software: aktuelle [Kali](https://www.kali.org/get-kali/#kali-installer-images)  Version.
 
 This is an example of how to list things you need to use the software and how to install them.
 * WLAN-Karte vorbereiten
@@ -31,4 +36,20 @@ This is an example of how to list things you need to use the software and how to
 ![image](images/14.png "AA")
 ![image](images/15.png "AA")
 ![image](images/16.png "AA")
+
+
+
+
+
+Über den Author
+
+![image](images/avatar.png "AA")
+Chief of Security (Sarif Industries)
+Member of Task Force 29 
+
+
+
+
+
+
 
