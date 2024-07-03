@@ -1,3 +1,27 @@
+![image](images/1.png "AA")
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+![image](images/2.png "AA")
+![image](images/3.png "AA")
+![image](images/4.png "AA")
+![image](images/5.png "AA")
+![image](images/6.png "AA")
+![image](images/7.png "AA")
+![image](images/8.png "AA")
+![image](images/9.png "AA")
+![image](images/10.png "AA")
+![image](images/11.png "AA")
+![image](images/12.png "AA")
+![image](images/13.png "AA")
+![image](images/14.png "AA")
+![image](images/15.png "AA")
 
 
 <!-- PROJECT LOGO -->
@@ -96,13 +120,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
