@@ -68,12 +68,14 @@ Es handelt sich um ein Gerät der Marke TP-Link und es scheint nicht Benutzer an
 
 Über den Author  
  ![image](images/avatar.png "AA")
+ 
 Chief of Security (Sarif Industries)<br>
 Member of Task Force 29 <br>
 
 Discord Server
 
  ![image](images/discord.png "AA")
+ 
 </div>
 
 
