@@ -58,6 +58,8 @@ Um eine WPA2-Verschlüsselung zu erraten benötigen wir den Handshake zwischen d
 
 ![image](images/6.png "AA")
 
+Hier ist nun besonders die Stelle oben rechts für uns interessant, denn nun gilt es den Hanshake einzufangen bzw. aufzuzeichnen.
+Auch hierzu gibt es wiedereinmal mehrere Ansätze. Zum Beispiel warten bis sich ein Gerät wie ein Handy mit dem Netzwerk verbindet.Man kann aber mit dem DEAUTH-Befehl verbunde Geräte kurz aus dem Netzwerk kicken. Diese verbinden sich dann direkt wieder mit dem WLAN-Sender und man bekommt den Handshake. Darum soll es hier aber jetzt nicht gehen. Zu diesen Schulungszweken habe ich ein Handy mit den Netzwerk verbunden.
 
 ![image](images/7.png "AA")
 ![image](images/8.png "AA")
