@@ -9,16 +9,19 @@ Die gezeigeten Methoden, Befehle und Techniken dienen der Sensibilisierung und d
 Hardware: Laptop/Rechner mit WLAN-Karte<br>
 Software: aktuelle [Kali](https://www.kali.org/get-kali/#kali-installer-images)  Version.
 
-This is an example of how to list things you need to use the software and how to install them.
+### Let´s Hack
+
+Zunächst müssen wir die WLan-Karte in den Monitormodus versetzen, denn wir benötigen diese es unser Werkzeug.
 * WLAN-Karte vorbereiten
   ```sh
   sudo airmon-ng start wlan0 
   ```
 
-
 ![image](images/1.png "AA")
+Wir werden von Kali darauf hingewiesen dass noch zwei Prozesse auf die Karte zugreifen. Uns wird auch der passende Befehl angeboten um diese beiden Prozesse zu beenden (killen)
+  
   ```sh
-  npm install npm@latest -g
+  sudo airmon-ng check kill
   ```
 
 ![image](images/2.png "AA")
@@ -41,11 +44,15 @@ This is an example of how to list things you need to use the software and how to
 
 
 
-Über den Author
+<div style="text-align: center;">
 
-![image](images/avatar.png "AA")
+**Über den Author  
+  <img src="images/avatar.png" alt="Adam Jensen" style="border-radius: 50%; width: 150px; height: 150px;">
 Chief of Security (Sarif Industries)
 Member of Task Force 29 
+</div>
+
+
 
 
 
