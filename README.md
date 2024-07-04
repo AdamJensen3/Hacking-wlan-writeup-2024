@@ -84,9 +84,19 @@ Daher generieren wir uns die passende Passwordliste mit den folgenden Befehl
 
 ![image](images/8.png "AA")
 
-Wir nutzen das Programm Crunch um uns eine Liste mit Passwörter erstellen zu lassen. Wir geben folgende dabei an: Mindestlänge des PW ist 8 Maximallänge des PW ist 8. Woraus soll das Passwort bestehen nur aus den Zahlen 0123456789 und alles soll mit dem Parameter -o (Output) in die Datei 8er-zahlen geschrieben werden.
+Wir nutzen das Programm Crunch um uns eine Liste mit Passwörter erstellen zu lassen. Wir geben folgende dabei an: Mindestlänge des PW ist 8 Maximallänge des PW ist 8. Woraus soll das Passwort bestehen nur aus den Zahlen 0123456789 und alles soll mit dem Parameter -o (Output) in die Datei 8er-zahlen geschrieben werden. Das Programm zeigt uns die zu erwartende Dateigröße von ca. 860MB. 
+
+Direkt im Anschluss habe ich mir noch zu Vorführungszwecken eine anepasste Version erstellt. Die ist wesentlich kürzer und somit schneller. Damit dauert der Vorgang nur ein paar Sekunden und nicht Stunden.
+
 
 ![image](images/9.png "AA")
+
+  ```sh
+  crunch 8 8 0123456789 -s 57880000 -e 78890000  -o 8er_zahlen_kurz
+  ```
+
+Die Option -s (start) gibt an ab Welchen Zahlenanfang bzw. Offset das Programm beginnen soll.
+Die Option -e (end) gibt an bis zu welchen Zahlenwert das Programm arbeiten soll.
 
 
 ![image](images/10.png "AA")
