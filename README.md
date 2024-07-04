@@ -1,3 +1,15 @@
+### Fehler und Verbesserungen
+
+- [ ] Ausfüllen
+- [ ] Bilder sortieren Dopplte raus
+- [ ] handshake neue bilder aufnehmen .cap.cap
+- [ ] About me verbessern Optisch
+- [ ] deauth Besipeile einfügen
+- [ ] X
+
+
+
+
 # Tutorial WPA2 Handshake bruteforcen:
 
 ## Wichtiger Hinweis:
@@ -127,9 +139,9 @@ Chief of Security (Sarif Industries)<br>
 Member of Task Force 29 <br>
 
 Discord Server
+[<img src="images/discord.png">](https://discord.gg/rN4Q32EM)
 
- ![image](images/discord.png "AA")
- 
+
 </div>
 
 
