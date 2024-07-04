@@ -98,11 +98,16 @@ Die Option -s (start) gibt an ab Welchen Zahlenanfang bzw. Offset das Programm b
 Die Option -e (end) gibt an bis zu welchen Zahlenwert das Programm arbeiten soll.
 ![image](images/9.png "AA")
 
+Diese verkürzte und angepasste Liste ist nicht mal 1 MB groß.
 
+Nun Können wir ans "cracken" gehen.
 
+  ```sh
+  aircrack-ng handshake-01.cap -w 8er_zahlen_kurz
+  ```
 
 ![image](images/10.png "AA")
-![image](images/11.png "AA")
+
 ![image](images/12.png "AA")
 ![image](images/13.png "AA")
 ![image](images/14.png "AA")
