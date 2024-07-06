@@ -62,11 +62,12 @@ Um eine WPA2-Verschlüsselung zu erraten benötigen wir den Handshake zwischen d
   ```sh
   sudo airodump-ng start wlan0mon --bssid   C0:C9:E3:B3:68:F0 -w handshake
   ```
-![image](images/5.png "AA")
- Mit diesem Befehl weisen wir an, dass wir nur die Datenpakte die mit der angebenen BSSID zu tun haben, also unserem Zielnetzwerk, aufgezeichnet werden sollen.
- Die gesamte aufzeichung soll in die mit dem Parameter -w (write) in die Datei handshake.cap geschrieben werden. Diese Bezeichnung ist nicht zwingend, man hätte es auch hugo.txt nennen können aber gewöhnt euch gleich an die Dinge richtig zu erledigen. .cap Dateien werden wir bei Wireshark wieder sehen.
+![image](5.png "AA")
 
- Es öffnet sich nun die folgende Anzeige mit unsrem Zielnetzwerk
+ Mit diesem Befehl weisen wir an, dass wir nur die Datenpakte die mit der angebenen BSSID zu tun haben, also unserem Zielnetzwerk, aufgezeichnet werden sollen.
+ Die gesamte Aufzeichung soll in die mit dem Parameter -w (write) in die Datei handshake geschrieben werden. Diese Bezeichnung ist nicht zwingend, man hätte es auch hugo nennen können aber gewöhnt euch gleich an die Dinge richtig zu erledigen. Das Programm erstellt uns automatisch die benötige .cap Datei. Dieser werden wir in zukünftig foglenden Anleitunge bei Wireshark wieder sehen.
+
+ Es öffnet sich nun die folgende Anzeige mit unserem Zielnetzwerk
 
 ![image](images/6.png "AA")
 
