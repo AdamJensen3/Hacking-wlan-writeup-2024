@@ -138,7 +138,7 @@ Dieser Vorgang dauert je nach Hardware und Passwortliste von einigen Stunden bis
 
 ![image](images/12.png "AA")
 
-1
+Hier sieht man nun den eigentlichen Crack-Prozess. Das Programm versucht mit jeden "Wort" aus der Wortliste den Handshake zu knacken. Da wir aber wissen, dass es eine reine 8 stellige Zahlenkombiation ist sehen wir hier das Programm dies mit Zahlen machen. In der Grafik oben wird gerade der Passwort "00438787" getestet. Wir haben bereits 0.49% der Passwortliste abgearbeitet. 
 
 ![image](images/13.png "AA")
 
