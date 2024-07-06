@@ -128,15 +128,29 @@ Am wichtigsten ist die Datei mit der Endung CAP. Dort ist der Handshake drin, de
 Nun Können wir ans "cracken" gehen.
 
   ```sh
-  aircrack-ng handshake-01.cap -w 8er_zahlen_kurz
+  aircrack-ng handshake-01.cap -w 8er_zahlen
   ```
 
-![image](images/10.png "AA")
+![image](11.png "AA")
+
+
+Dieser Vorgang dauert je nach Hardware und Passwortliste von einigen Stunden bis hin zu Tagen.
 
 ![image](images/12.png "AA")
+
+1
+
 ![image](images/13.png "AA")
+
+2
+
 ![image](images/14.png "AA")
+
+3
+
 ![image](images/15.png "AA")
+4
+
 ![image](images/16.png "AA")
 
 
