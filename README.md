@@ -81,6 +81,7 @@ Nun können wir erkennen dass mindestens ein Handshake aufgezeichnet wurde. Nun 
   ```sh
   [STRG]+[C] 
   ```
+
 Nun kommt die Stelle die ein Skriptkiddi von einem Penetrationtester unterscheidt
 
 "Spezialwissen" über TP-Link
@@ -112,6 +113,17 @@ Die Option -e (end) gibt an bis zu welchen Zahlenwert das Programm arbeiten soll
 ![image](images/9.png "AA")
 
 Diese verkürzte und angepasste Liste ist nicht mal 1 MB groß.
+
+
+Nun prüfen wir ob wir alles haben was wir beötigen, dazu tippen wir den folgenden Befehl ein.
+
+  ```sh
+  ll
+  ```
+![image](10.png "AA")
+
+Ihr sollte jetzt die gleichen Dateien haben.
+Am wichtigsten ist die Datei mit der Endung CAP. Dort ist der Handshake drin, den wir knacken wollen.
 
 Nun Können wir ans "cracken" gehen.
 
