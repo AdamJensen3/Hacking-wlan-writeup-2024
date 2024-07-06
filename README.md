@@ -2,7 +2,7 @@
 
 - [ ] Ausfüllen
 - [ ] Bilder sortieren Dopplte raus
-- [ ] handshake neue bilder aufnehmen .cap.cap
+- [x] handshake neue bilder aufnehmen .cap.cap
 - [ ] About me verbessern Optisch
 - [ ] deauth Besipeile einfügen
 - [ ] X
@@ -60,7 +60,7 @@ Es handelt sich um ein Gerät der Marke TP-Link und es scheint nicht Benutzer an
 Um eine WPA2-Verschlüsselung zu erraten benötigen wir den Handshake zwischen dem Sender und Empfänger dazu benutzen wir den folgenden Befehl
 
   ```sh
-  sudo airodump-ng start wlan0mon --bssid   C0:C9:E3:B3:68:F0 -w handshake.cap
+  sudo airodump-ng start wlan0mon --bssid   C0:C9:E3:B3:68:F0 -w handshake
   ```
 ![image](images/5.png "AA")
  Mit diesem Befehl weisen wir an, dass wir nur die Datenpakte die mit der angebenen BSSID zu tun haben, also unserem Zielnetzwerk, aufgezeichnet werden sollen.
