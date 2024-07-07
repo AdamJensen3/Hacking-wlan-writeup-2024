@@ -1,11 +1,9 @@
 ### Fehler und Verbesserungen
 
-- [ ] Ausfüllen
-- [ ] Bilder sortieren Dopplte raus
-- [x] handshake neue bilder aufnehmen .cap.cap
-- [ ] About me verbessern Optisch
-- [ ] deauth Besipeile einfügen
-- [ ] X
+- [ ] Bilder sortieren Dopplte raus und in ein Verzeichnis
+- [ ] Handshake reinmachen
+- [ ] gegenprüfen lassen
+- [ ] About me
 
 
 
@@ -138,24 +136,74 @@ Dieser Vorgang dauert je nach Hardware und Passwortliste von einigen Stunden bis
 
 ![image](images/12.png "AA")
 
-Hier sieht man nun den eigentlichen Crack-Prozess. Das Programm versucht mit jeden "Wort" aus der Wortliste den Handshake zu knacken. Da wir aber wissen, dass es eine reine 8 stellige Zahlenkombiation ist sehen wir hier das Programm dies mit Zahlen machen. In der Grafik oben wird gerade der Passwort "00438787" getestet. Wir haben bereits 0.49% der Passwortliste abgearbeitet. 
+Hier sieht man nun den eigentlichen Crack-Prozess. Das Programm versucht mit jeden "Wort" aus der Wortliste den Handshake zu knacken. Da wir aber wissen, dass es eine reine 8 stellige Zahlenkombiation ist sehen wir hier das Programm dies mit Zahlen machen. In der Grafik oben wird gerade der Passwort "00017603" getestet. Wir haben bereits 0.16% der Passwortliste abgearbeitet. 
+
+
+
+Dieser Prozess benötig viel Hardwareleistung:
+Profis nutzen dafür die GPU der Grafikkarte. Hier für unsere Schulungszwecke reicht die Leistung der CPU föllig aus.
+![image](14.png "AA")
+
+
 
 ![image](images/13.png "AA")
 
-2
+Sehr schnell passt sich geschätze Zeitdauer an. Als Faustformel kann man sagen, dass ein Passwort mit 8 Stellen (nur Zahlen) über Nacht geknackt werden kann.
 
 ![image](images/14.png "AA")
 
-3
+Da wir abeer hier zur Schulungszwecken direkt nach wenigen Sekunden einen Erfolg sehen wollen, nutzen wir die kleinere Wortliste "**8er_zahlen_kurz**". Somit spraren wir uns mehrere Stunden.
 
 ![image](images/15.png "AA")
-4
+
+Den Erfolg kann man direkt sehen, denn nach nichtmal einer Sekunde und 84,15% wurde das richtige Passwort erraten. Es ist **57886046**
 
 ![image](images/16.png "AA")
 
 
 
+Ein kurzer Blick unter den Router verrät, dass wir das richtige Passwort haben.
 
+Zusatzwissen: Was sagt uns dies jetzt über den Benutzer/Admin des Routes?
+  
+  -Der Router ist komplett default (ESSID und das Werkspasswort)
+  -Die Wahrscheinlichkeit, dass die Logindaten des Routers auch noch default ist, ist sehr hoch.
+  -Es gibt viele Seiten wo man die Default-Passwörter der Hersteller/Modell einsehen 
+
+
+Wir notieren und den gefunden Key und starten den Rechner neu.
+Da wir unsere WLAN-Karte in den Monitormode versetzt haben können wir uns nicht direkt mit dem geknackten WLAN verbinden.
+
+Der einfachste Weg wieder alles in default zu bekommen ist ein neustart.
+Einfach über die Konsole mit dem Befehl
+
+  ```sh
+  sudo reboot now
+  ```
+
+Danach können wir uns mit den verschlüsselten WLAN verbiden:
+
+ ![image](18.png "AA")
+
+
+![image](19.png "AA")
+
+
+Nun sind wir verbunden. 
+Trotzdem checken wir es nochmal.
+Dazu in der Konsole den fogenden Befehl eingeben
+
+  ```sh
+  nmcli dev wifi
+  ```
+
+![image](20.png "AA")
+ 
+ **Jawohl unser erster WLAN-Hack war erfolgreich!**
+
+ In diesem Git-Repository ist mein Handshake meinr Hardware drin. Und ich erlaube euch ausdrücklich mit diesem zu spielen und zu testen. Jetzt habt Ihr alles was ihr braucht. Viel Spaß beim nachmachen.
+
+ **Adam Jensen**
 
 <div align="center">
 
