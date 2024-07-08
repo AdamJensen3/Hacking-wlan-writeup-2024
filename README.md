@@ -3,7 +3,7 @@
 - [ ] Bilder sortieren Doppelte raus und in ein Verzeichnis
 - [ ] Handshake reinmachen
 - [ ] gegenprüfen lassen
-- [ ] About me
+- [x] About me
 
 
 
@@ -203,21 +203,18 @@ Dazu in der Konsole den folgenden Befehl eingeben
 
  In diesem Git-Repository ist mein Handshake meiner Hardware drin. Und ich erlaube euch ausdrücklich mit diesem zu spielen und zu testen. Jetzt habt Ihr alles, was ihr braucht. Viel Spaß beim Nachmachen.
 
- **Adam Jensen**
 
 <div align="center">
 
-Über den Autor  
- ![image](images/avatar.png "AA")
- 
-Chief of Security (Sarif Industries)<br>
-Member of Task Force 29 <br>
+ **Adam Jensen**
+ ![Avatar](images/avatar.png){: width="250" height="300"} 
 
-Discord Server
-[<img src="images/discord.png">](https://discord.gg/rN4Q32EM)
-
-
+  Chief of Security (Sarif Industries)
+  Member of Task Force 29 
 </div>
+
+
+
 
 
 
