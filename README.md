@@ -1,13 +1,3 @@
-### Fehler und Verbesserungen
-
-- [ ] Bilder sortieren Doppelte raus und in ein Verzeichnis
-- [ ] Handshake reinmachen
-- [ ] gegenprüfen lassen
-- [x] About me
-
-
-
-
 # Tutorial WPA2 Handshake bruteforcen:
 
 ## Wichtiger Hinweis:
@@ -79,6 +69,10 @@ Nun können wir erkennen dass mindestens ein Handshake aufgezeichnet wurde. Nun 
   ```sh
   [STRG]+[C] 
   ```
+
+![image](images/router.png "AA")
+
+
 
 Nun kommt die Stelle die ein Skriptkiddi von einem Penetration Tester unterscheidet
 
