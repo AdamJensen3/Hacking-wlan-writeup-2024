@@ -34,7 +34,7 @@ Wir werden von Kali darauf hingewiesen, dass noch zwei Prozesse auf die Karte zu
   sudo airmon-ng check kill
   ```
 
-![image](images/2.png "AA")
+![image](images/2a.png "AA")
 
 Danach steht und die Wlan-Karte voll und ganz zur Verfügung.
 Nun schauen wir was wir alles in unsrer Umgebung empfangen können.
@@ -60,7 +60,7 @@ Um eine WPA2-Verschlüsselung zu erraten benötigen wir den Handshake zwischen d
   ```sh
   sudo airodump-ng start wlan0mon --bssid   C0:C9:E3:B3:68:F0 -w handshake
   ```
-![image](5.png "AA")
+![image](images/5a.png "AA")
 
  Mit diesem Befehl weisen wir an, dass wir nur die Datenpakte die mit der angegebenen BSSID zu tun haben, also unserem Zielnetzwerk, aufgezeichnet werden sollen.
  Die gesamte Aufzeichnung soll in die mit dem Parameter -w (write) in die Datei handshake geschrieben werden. Diese Bezeichnung ist nicht zwingend, man hätte es auch hugo nennen können aber gewöhnt euch gleich an die Dinge richtig zu erledigen. Das Programm erstellt uns automatisch die benötige .cap Datei. Dieser werden wir in zukünftig folgenden Anleitungen bei Wireshark wieder sehen.
@@ -118,7 +118,7 @@ Nun prüfen wir ob wir alles haben, was wir benötigen, dazu tippen wir den folg
   ```sh
   ll
   ```
-![image](10.png "AA")
+![image](images/10a.png "AA")
 
 Ihr sollte jetzt die gleichen Dateien haben.
 Am wichtigsten ist die Datei mit der Endung CAP. Dort ist der Handshake drin, den wir knacken wollen.
@@ -129,7 +129,7 @@ Nun können wir ans "cracken" gehen.
   aircrack-ng handshake-01.cap -w 8er_zahlen
   ```
 
-![image](11.png "AA")
+![image](images/11a.png "AA")
 
 
 Dieser Vorgang dauert je nach Hardware und Passwortliste von einigen Stunden bis hin zu Tagen.
@@ -142,7 +142,7 @@ Hier sieht man nun den eigentlichen Crack-Prozess. Das Programm versucht mit jed
 
 Dieser Prozess benötig viel Hardwareleistung:
 Profis nutzen dafür die GPU der Grafikkarte. Hier für unsere Schulungszwecke reicht die Leistung der CPU völlig aus.
-![image](14.png "AA")
+![image](images/14a.png "AA")
 
 
 
@@ -183,10 +183,10 @@ Einfach über die Konsole mit dem Befehl
 
 Danach können wir uns mit den verschlüsselten WLAN verbinden:
 
- ![image](18.png "AA")
+ ![image](images/18a.png "AA")
 
 
-![image](19.png "AA")
+![image](images/19a.png "AA")
 
 
 Nun sind wir verbunden. 
@@ -197,7 +197,7 @@ Dazu in der Konsole den folgenden Befehl eingeben
   nmcli dev wifi
   ```
 
-![image](20.png "AA")
+![image](images/20a.png "AA")
  
  **Jawohl unser erster WLAN-Hack war erfolgreich!**
 

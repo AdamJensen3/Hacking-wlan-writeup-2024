@@ -1,0 +1,7 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+C0:C9:E3:B3:68:F0, 2024-07-06 16:56:14, 2024-07-06 16:56:26, 10, 270, WPA2, CCMP, PSK, -46,      111,       68,   0.  0.  0.  0,  12, TP-Link_68F0, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+4A:81:78:01:27:68, 2024-07-06 16:56:19, 2024-07-06 16:56:23, -50,      203, C0:C9:E3:B3:68:F0,
+
