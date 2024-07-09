@@ -1,5 +1,10 @@
 # Tutorial WPA2 Handshake bruteforcen:
 
+### Worum geht es:
+
+Beschreibung hier einfügen.
+Hinweis auf VM und Aircrack und andere Programme
+
 ## Wichtiger Hinweis:
 
 Die gezeigten Methoden, Befehle und Techniken dienen der Sensibilisierung und dem Selbststudium, und dürfen unter gar keinen Umständen für böse Absichten eingesetzt werden. Darüber hinaus ist es in Deutschland strafbar fremde Netzwerke, Webseite, Server oder ähnliches zu hacken, ohne schriftliche Genehmigung des Eigentümer
