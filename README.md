@@ -2,8 +2,11 @@
 
 ### Worum geht es:
 
-Beschreibung hier einfügen.
-Hinweis auf VM und Aircrack und andere Programme
+Natürlich gibt es viele weitere Programme (Wireshark, Airgeddon, usw..) mit denen dies möglich ist.
+Hier geht es aber um die Grundlagen und um die Standardprogramme, die bei Kali Linux ab Werk mit an Bord sind.
+Achtung gerade Hacks mit Kali bei denen man auf Hardware (hier die WLAN-Karte) zugreifen muss kann in einer VM-Schwierigkeiten machen.
+Daher empfehle ich Anfänger eine Linux Installation auf einen alten Rechner zu bevorzugen, um mal überhaupt mit der Materie in Berührung zu kommen
+
 
 ## Wichtiger Hinweis:
 
