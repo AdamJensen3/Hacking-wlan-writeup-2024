@@ -35,7 +35,7 @@ Wir werden von Kali darauf hingewiesen, dass noch zwei Prozesse auf die Karte zu
 ![image](images/2a.png "AA")
 
 Danach steht und die WLAN-Karte voll und ganz zur Verfügung.
-Nun schauen wir was wir alles in unsrer Umgebung empfangen können.
+Nun schauen wir was wir alles in unserer Umgebung empfangen können.
   ```sh
   sudo airodump-ng start wlan0mon
   ```
@@ -45,7 +45,7 @@ wlan0mon ist nun der Name unseres Netzwerkinterfaces, welches sich im Monitor-Mo
 ![image](images/3.png "AA")
 
 Was sehen wir nun? Wie kann man das angezeigte interpretieren?
-Wir sehen also drei Netzwerk in der Reichweite.
+Wir sehen also drei Netzwerke in unserer Reichweite.
 In der ersten Spalte sehen wir die einzigartigen BSSID von den Netzwerken, gefolgt von der Spalte PWR als Abkürzung für Power die Werte, die wir hier sehen sind immer negativ da sich diese auf die Signalstärke in dBm beziehen. Diese Zahl ist ein Indikator dafür, wie nah man an einem Netzwerkteilnehmer ist.
 Beispiel ein Netzwerk mit dem Wert -35 ist näher an unserem Laptop als ein Netzwerk mit -54. Allgemein gilt beim WLAN-Hacking je dichter desto besser
 Die Spalte ENC steht für die Verschlüsselungsart Welche Verschlüsselungsarten gibt es OPN= open/offen/ohne Verschlüsselung, WEP, WPA2 und WPA3
@@ -209,7 +209,8 @@ Dazu in der Konsole den folgenden Befehl eingeben
 <div align="center">
 
  **Adam Jensen**
- ![Avatar](images/avatar.png){: width="250" height="300"} 
+
+ ![Avatar](images/avatar.png) 
 
   Chief of Security (Sarif Industries)
   Member of Task Force 29 
